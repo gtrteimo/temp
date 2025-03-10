@@ -1,0 +1,33 @@
+/* Beispiel-CSS für deine Anwendung */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1E1E1E;
+  }
+  
+  h1 {
+    color: #1976d2; /* Blau passend zu Material-UI */
+  }
+  
+  p {
+    color: #333;
+  }
+  
+  /* index.css */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; /* Optional, je nach Schriftart */
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+  }
+  
